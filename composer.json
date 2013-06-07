@@ -1,5 +1,9 @@
 {
     "require": {
-        "silex/silex": "1.0.*@dev"
+        "slim/slim": "2.*"
+    },
+
+    "autoload": {
+        "psr-0": {"": "src/"}
     }
 }
