@@ -1,9 +1,12 @@
 {
     "require": {
-        "slim/slim": "2.*"
+        "slim/slim": "2.*",
+        "Respect/Test" : "dev-master",
+        "Respect/Config" : "dev-master"
     },
 
     "autoload": {
-        "psr-0": {"": "src/"}
+        "psr-0": {
+            "" : "src/" }
     }
 }
